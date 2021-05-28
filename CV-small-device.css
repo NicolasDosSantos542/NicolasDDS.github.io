@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 1000px) {
+
+    .container{
+        max-height: 3508px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 40px 40px 10px;  /* top right bottom left*/
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1px;
+        font-size: 1.2em;
+        background-color: #d9d9d9;
+        /*grid-auto-rows: minmax(85px, auto);*/
+    }
+
+    .name{
+        grid-column: 1/span 2;
+    }
+    .job{
+        grid-column: 1/span 2;
+    }
+    .contact{
+        grid-column: 1/span 2;
+    }
+    .contact>ul{
+        display: block;
+    }
+    .global-skills{
+        grid-column: 1/span 2;
+    }
+    .new-skills{
+        grid-column:1 /span 2;
+    }
+    .background{
+        grid-column: 1/span 2;
+    }
+    .studies{
+        grid-column: 1/span 2;
+        /*grid-row: 1;*/
+    }
+    .know-more{
+        grid-column: 1/span 2;
+        /*grid-row: 1;*/
+    }
+    .hobbies{
+        grid-column: 1/span 2;
+        /*grid-row: 1;*/
+    }
+
+}
+

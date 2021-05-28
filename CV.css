@@ -1,0 +1,99 @@
+body{
+    background-color: #d9d9d9;
+
+}
+li{
+    margin-bottom: 1em;
+    list-style: square;
+    list-style-color: orange;
+}
+.container{
+    max-height: 3508px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px 10px 40px;  /* top right bottom left*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    font-size: 1.2em;
+    background-color: #d9d9d9;
+    /*grid-auto-rows: minmax(85px, auto);*/
+}
+h3{
+    color: #fff;
+    margin-left: 10px ;
+    margin-right: 10px;
+    /*width: 60%;*/
+    text-align: center;
+    background-color: #1C3B4F;
+
+}
+.dates
+{
+    color: #d5670d;
+
+}
+.strong
+{
+    color: #b15003;
+
+}
+
+.name{
+    background-color: #1C3B4F;
+    grid-column: 1/span 2;
+    text-align: center;
+    color: #fff;
+
+    /*grid-row: 1;*/
+}
+.job{
+    grid-column: 1/span 2;
+    grid-row: 2;
+    text-align: center;
+    background-color: #d5670d;
+    color: #fff;
+
+}
+.contact{
+    grid-column: 1/span 2;
+    background-color: #102c3e;
+    color: #fff;
+    /*grid-row: 1;*/
+}
+.contact>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.contact>ul>li{
+    list-style-type: none;
+}
+
+.global-skills{
+    grid-column: 1/span 1;
+}
+.new-skills{
+    grid-column: 2/span 1;
+    /*grid-row: 1;*/
+}
+.code{
+    color: #d5670d;
+    font-weight: bold;
+}
+.background{
+    grid-column: 1/span 1;
+    /*grid-row: 1;*/
+}
+.studies{
+    grid-column: 2/span 1;
+    /*grid-row: 1;*/
+}
+.know-more{
+    grid-column: 1/span 1;
+    /*grid-row: 1;*/
+}
+.hobbies{
+    grid-column: 2/span 1;
+    /*grid-row: 1;*/
+}
